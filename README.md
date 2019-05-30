@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a ><img src="https://img.shields.io/github/repo-size/tjcde/xbeam.svg?style=flat-square&color=success"></a>
-    <a><img src="https://img.shields.io/github/tag/tjcde/xbeam.svg?style=flat-square&color=informational"></a>
-    <a><img src="https://img.shields.io/github/downloads/tjcde/xbeam/total.svg?style=flat-square&color=brightgreen"></a>
-    <a><img src="https://img.shields.io/github/issues-closed-raw/tjcde/xbeam.svg?style=flat-square&color=critical"></a>
-    <a><img src="https://img.shields.io/github/last-commit/tjcde/xbeam.svg?style=flat-square&color=important"></a>
+  <a ><img src="https://img.shields.io/github/repo-size/projectxbeam/xbeam.svg?style=flat-square&color=success"></a>
+    <a><img src="https://img.shields.io/github/tag/projectxbeam/xbeam.svg?style=flat-square&color=informational"></a>
+    <a><img src="https://img.shields.io/github/downloads/projectxbeam/xbeam/total.svg?style=flat-square&color=brightgreen"></a>
+    <a><img src="https://img.shields.io/github/issues-closed-raw/projectxbeam/xbeam.svg?style=flat-square&color=critical"></a>
+    <a><img src="https://img.shields.io/github/last-commit/projectxbeam/xbeam.svg?style=flat-square&color=important"></a>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ Already downloaded songs can be imported with a few clicks and, assuming you hav
 ## Installation
 > To run XBeam, you must have [Java Runtime Environment 8](https://java.com/de/download/) or higher installed.
 
-First download the [latest release](https://github.com/tjcde/xbeam/releases) and execute it.
+First download the [latest release](https://github.com/projectxbeam/xbeam/releases) and execute it.
 The installer will open and guide you through the installation.
 After it is finished you may have to download some extensions.
 
