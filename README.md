@@ -36,6 +36,7 @@ Already downloaded songs can be imported with a few clicks and, assuming you hav
 
 ## Installation
 First download the [latest release](https://github.com/projectxbeam/xbeam/releases) and install it.
+
 After everything is done and you have initialized the program you are [ready to start](#getting-started).
 
 ## Build
