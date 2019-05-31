@@ -35,14 +35,7 @@ All your existing resources are automatically detected and added to your XBeam l
 Already downloaded songs can be imported with a few clicks and, assuming you have a license for a song database, you can easily access it and import new songs.
 
 ## Installation
-> To run XBeam, you must have [Java Runtime Environment 8](https://java.com/de/download/) or higher installed.
-
-First download the [latest release](https://github.com/projectxbeam/xbeam/releases) and execute it.
-The installer will open and guide you through the installation.
-After it is finished you may have to download some extensions.
-
-However, they should be downloaded automatically the first time you start XBeam, but can also be downloaded from the console.
-
+First download the [latest release](https://github.com/projectxbeam/xbeam/releases) and install it.
 After everything is done and you have initialized the program you are [ready to start](#getting-started).
 
 ## Contribute
