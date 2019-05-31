@@ -9,7 +9,10 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
+    minHeight: 600,
+    minWidth: 1000,
     show: false,
+    frame: false,
     webPreferences: {
       nodeIntegration: true
     }
@@ -18,7 +21,7 @@ function createWindow() {
   //mainWindow.setMenu(null);
   //mainWindow.maximize();
 
-  mainWindow.loadFile('ui/index.html');
+  mainWindow.loadFile('ui/main.html');
 
   mainWindow.once('ready-to-show', () => {
     mainWindow.show();
