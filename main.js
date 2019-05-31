@@ -18,9 +18,6 @@ function createWindow() {
     }
   });
 
-  //mainWindow.setMenu(null);
-  //mainWindow.maximize();
-
   mainWindow.loadFile('frontend/main.html');
 
   mainWindow.once('ready-to-show', () => {
