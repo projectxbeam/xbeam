@@ -43,7 +43,7 @@ After everything is done and you have initialized the program you are [ready to 
 1. Install [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/).
 2. Paste this in your command line and you're done!
 ```
-git clone https://github.com/projectxbeam/xbeam.git && cd SoundKeys && npm i && npm start
+git clone https://github.com/projectxbeam/xbeam.git && cd xbeam && npm i && npm start
 ```
 3. To build an executeable run `build -w`.
 
