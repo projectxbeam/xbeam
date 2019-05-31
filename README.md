@@ -44,6 +44,7 @@ After everything is done and you have initialized the program you are [ready to 
 ```
 git clone https://github.com/projectxbeam/xbeam.git && cd SoundKeys && npm i && npm start
 ```
+3. To build an executeable run `build -w`.
 
 ## Contribute
 If you found bugs help us by [opening issues](https://github.com/projectxbeam/xbeam/issues).
