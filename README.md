@@ -19,8 +19,8 @@
   <a href="#integration">Integration</a> •
   <a href="#installation">Installation</a> •
   <a href="#contribute">Contribute</a> •
-  <a href="https://">Wiki</a> •
-  <a href="https://">License</a>
+  <a href="https://github.com/projectxbeam/xbeam/wiki">Wiki</a> •
+  <a href="https://github.com/projectxbeam/xbeam/blob/master/LICENSE">License</a>
 </p>
 <br>
 <p align="center"><img src="https://i.imgur.com/NspZTwb.png" width="900"></p>
