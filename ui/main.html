@@ -7,30 +7,35 @@
 <body>
 
     <div id="dragbar">
-        <p>XBeam</p>
+        <p>XBeam <span>2019</span></p>
+        <div id="dragbar-btn-group">
+            <div class="dragbar-btn" id="dragbar-btn-close"></div>
+            <div class="dragbar-btn" id="dragbar-btn-close"></div>
+            <div class="dragbar-btn" id="dragbar-btn-close"></div>
+        </div>
     </div>
     <div id="content">
         <div id="session">
             <a id="session-name">Session</a>
             <a id="session-path">C > Users > tjcde > xbeam > sessions > session.json</a>
 
-            <div class="session-item">
+            <div class="session-item" id="session-selected-item">
                 <img src="res/cover.jpg">
-                <a class="session-item-title" id="session-selected-item">Reckless Love</a><br>
-                <a class="session-item-author">Cody Asbury • 12 Slides</a>
-                <a class="session-item-tag"><span>83bpm</span></a>
+                <a class="session-item-title">Reckless Love</a><br>
+                <a class="session-item-author"><span>Cody Asbury</span> • 12 Slides</a>
+                <a class="session-item-tag"><span>guitar</span><span>drums</span></a>
             </div>
             <div class="session-item">
                 <img src="res/cover.jpg">
                 <a class="session-item-title">Tremble</a><br>
-                <a class="session-item-author">Mosaic MSC • 13 Slides</a>
-                <a class="session-item-tag"><span>83bpm</span></a>
+                <a class="session-item-author"><span>Mosaic MSC</span> • 13 Slides</a>
+                <a class="session-item-tag"><span>piano</span><span>slow</span></a>
             </div>
             <div class="session-item">
                 <img src="res/cover.jpg">
                 <a class="session-item-title">You Make Me Brave</a><br>
-                <a class="session-item-author">Bethel Music • 17 Slides</a>
-                <a class="session-item-tag"><span>83bpm</span></a>
+                <a class="session-item-author"><span>Bethel Music</span> • 17 Slides</a>
+                <a class="session-item-tag"><span>bethel</span></a>
             </div>
             <a id="button-add-song">+</a>
         </div>
@@ -38,12 +43,12 @@
             <div class="song-editor">
                 <div class="song-panel" id="song-panel-v1">
                     <p class="song-panel-title">Verse <span>1</span></p>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I spoke a word<br>
                             You were singing over me<br>
                             You have been so, so good to me</p>
                     </div>
-                    <div class="song-block" id="selected-song-block">
+                    <div class="song-block" id="selected-song-block" onclick="selectSongBlock(this)">
                         <p>Before I took a breath<br>
                             You breathed Your life in me<br>
                             You have been so, so kind to me</p>
@@ -51,12 +56,12 @@
                 </div>
                 <div class="song-panel" id="song-panel-v1">
                     <p class="song-panel-title">Chorus</p>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I spoke a word<br>
                             You were singing over me<br>
                             You have been so, so good to me</p>
                     </div>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I took a breath<br>
                             You breathed Your life in me<br>
                             You have been so, so kind to me</p>
@@ -64,12 +69,12 @@
                 </div>
                 <div class="song-panel" id="song-panel-v1">
                     <p class="song-panel-title">Verse <span>2</span></p>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I spoke a word<br>
                             You were singing over me<br>
                             You have been so, so good to me</p>
                     </div>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I took a breath<br>
                             You breathed Your life in me<br>
                             You have been so, so kind to me</p>
@@ -77,12 +82,12 @@
                 </div>
                 <div class="song-panel" id="song-panel-v1">
                     <p class="song-panel-title">Chorus</p>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I spoke a word<br>
                             You were singing over me<br>
                             You have been so, so good to me</p>
                     </div>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I took a breath<br>
                             You breathed Your life in me<br>
                             You have been so, so kind to me</p>
@@ -90,12 +95,12 @@
                 </div>
                 <div class="song-panel" id="song-panel-v1">
                     <p class="song-panel-title">Bridge</p>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I spoke a word<br>
                             You were singing over me<br>
                             You have been so, so good to me</p>
                     </div>
-                    <div class="song-block">
+                    <div class="song-block" onclick="selectSongBlock(this)">
                         <p>Before I took a breath<br>
                             You breathed Your life in me<br>
                             You have been so, so kind to me</p>
@@ -112,6 +117,7 @@
     </div>
 
 </body>
+
 <script src="main.js"></script>
 
 </html>
