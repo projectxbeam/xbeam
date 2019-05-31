@@ -38,5 +38,12 @@ Already downloaded songs can be imported with a few clicks and, assuming you hav
 First download the [latest release](https://github.com/projectxbeam/xbeam/releases) and install it.
 After everything is done and you have initialized the program you are [ready to start](#getting-started).
 
+## Build
+1. Install [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/).
+2. Paste this in your command line and you're done!
+```
+git clone https://github.com/projectxbeam/xbeam.git && cd SoundKeys && npm i && npm start
+```
+
 ## Contribute
-Do a pull request, design an interface or help by opening issues.
+If you found bugs help us by [opening issues](https://github.com/projectxbeam/xbeam/issues).
