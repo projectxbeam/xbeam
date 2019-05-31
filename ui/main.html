@@ -9,9 +9,10 @@
     <div id="dragbar">
         <p>XBeam <span>2019</span></p>
         <div id="dragbar-btn-group">
-            <div class="dragbar-btn" id="dragbar-btn-close"></div>
-            <div class="dragbar-btn" id="dragbar-btn-close"></div>
-            <div class="dragbar-btn" id="dragbar-btn-close"></div>
+            <div onclick="require('electron').remote.getCurrentWindow().minimize();" class="dragbar-btn"
+                id="dragbar-btn-close"></div>
+            <div onclick="maximize();" class="dragbar-btn" id="dragbar-btn-close"></div>
+            <div onclick="window.close();" class="dragbar-btn" id="dragbar-btn-close"></div>
         </div>
     </div>
     <div id="content">

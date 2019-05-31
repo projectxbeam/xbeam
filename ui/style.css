@@ -258,6 +258,7 @@ body {
 }
 
 .dragbar-btn {
+    -webkit-app-region: no-drag;
     top: 0;
     display: inline-block;
     width: 12px;
